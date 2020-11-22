@@ -1,0 +1,6 @@
+Tiến:menu+ trợ giúp 	
+Trí:Khách hàng
+Minh:đổi mật khẩu+ thêm tài khoản
+Sơn: Nhập kho
+Tùng:Thống kê
+Kiên:xuất kho
