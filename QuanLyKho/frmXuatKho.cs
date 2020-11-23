@@ -13,12 +13,12 @@ namespace QuanLyKho
 {
     public partial class frmXuatKho : Form
     {
-       
+
         public frmXuatKho()
         {
             InitializeComponent();
         }
 
-       
+
     }
 }

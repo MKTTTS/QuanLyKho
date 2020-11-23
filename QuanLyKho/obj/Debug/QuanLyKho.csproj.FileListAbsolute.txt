@@ -77,3 +77,25 @@ C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\QuanLyKho\obj\Debug\Q
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\QuanLyKho\obj\Debug\QuanLyKho.exe
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\QuanLyKho\obj\Debug\QuanLyKho.pdb
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\QuanLyKho\obj\Debug\QuanLyKho.frmKhachHang.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\DTO.dll
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmKhachHang.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMenu.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmTroGiup.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cache
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+E:\Desktop\Thực tập nhóm\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
