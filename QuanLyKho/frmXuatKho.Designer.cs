@@ -101,6 +101,7 @@
             this.dgvHoaDon.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvHoaDon.Size = new System.Drawing.Size(941, 176);
             this.dgvHoaDon.TabIndex = 3;
+            this.dgvHoaDon.Click += new System.EventHandler(this.dgvHoaDon_Click);
             // 
             // groupBox3
             // 
@@ -147,6 +148,7 @@
             this.btnXoaHD.TabIndex = 17;
             this.btnXoaHD.Text = "Xóa";
             this.btnXoaHD.UseVisualStyleBackColor = true;
+            this.btnXoaHD.Click += new System.EventHandler(this.btnXoaHD_Click);
             // 
             // btnSuaHD
             // 
@@ -157,6 +159,7 @@
             this.btnSuaHD.TabIndex = 16;
             this.btnSuaHD.Text = "Sửa";
             this.btnSuaHD.UseVisualStyleBackColor = true;
+            this.btnSuaHD.Click += new System.EventHandler(this.btnSuaHD_Click);
             // 
             // btnThemHD
             // 
@@ -167,6 +170,7 @@
             this.btnThemHD.TabIndex = 15;
             this.btnThemHD.Text = "Thêm";
             this.btnThemHD.UseVisualStyleBackColor = true;
+            this.btnThemHD.Click += new System.EventHandler(this.btnThemHD_Click);
             // 
             // btnLuuHD
             // 
@@ -177,6 +181,7 @@
             this.btnLuuHD.TabIndex = 14;
             this.btnLuuHD.Text = "Lưu";
             this.btnLuuHD.UseVisualStyleBackColor = true;
+            this.btnLuuHD.Click += new System.EventHandler(this.btnLuuHD_Click);
             // 
             // btnSearchHD
             // 
@@ -186,6 +191,7 @@
             this.btnSearchHD.TabIndex = 13;
             this.btnSearchHD.Text = "Search";
             this.btnSearchHD.UseVisualStyleBackColor = true;
+            this.btnSearchHD.Click += new System.EventHandler(this.btnSearchHD_Click);
             // 
             // txtSearchHD
             // 
@@ -321,6 +327,7 @@
             this.dgvChiTietXuat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChiTietXuat.Size = new System.Drawing.Size(941, 88);
             this.dgvChiTietXuat.TabIndex = 1;
+            this.dgvChiTietXuat.Click += new System.EventHandler(this.dgvChiTietXuat_Click);
             // 
             // groupBox4
             // 
@@ -350,6 +357,7 @@
             this.cboTenSanPham.Name = "cboTenSanPham";
             this.cboTenSanPham.Size = new System.Drawing.Size(121, 21);
             this.cboTenSanPham.TabIndex = 14;
+            this.cboTenSanPham.SelectedValueChanged += new System.EventHandler(this.cboTenSanPham_SelectedValueChanged);
             // 
             // txtThanhTien
             // 
@@ -375,6 +383,7 @@
             this.btnXoaCTXH.TabIndex = 11;
             this.btnXoaCTXH.Text = "Xóa";
             this.btnXoaCTXH.UseVisualStyleBackColor = true;
+            this.btnXoaCTXH.Click += new System.EventHandler(this.btnXoaCTXH_Click);
             // 
             // btnSuaCTXH
             // 
@@ -384,6 +393,7 @@
             this.btnSuaCTXH.TabIndex = 10;
             this.btnSuaCTXH.Text = "Sửa";
             this.btnSuaCTXH.UseVisualStyleBackColor = true;
+            this.btnSuaCTXH.Click += new System.EventHandler(this.btnSuaCTXH_Click);
             // 
             // btnThemCTXH
             // 
@@ -393,6 +403,7 @@
             this.btnThemCTXH.TabIndex = 9;
             this.btnThemCTXH.Text = "Thêm";
             this.btnThemCTXH.UseVisualStyleBackColor = true;
+            this.btnThemCTXH.Click += new System.EventHandler(this.btnThemCTXH_Click);
             // 
             // btnLuuCTXH
             // 
@@ -402,6 +413,7 @@
             this.btnLuuCTXH.TabIndex = 8;
             this.btnLuuCTXH.Text = "Lưu";
             this.btnLuuCTXH.UseVisualStyleBackColor = true;
+            this.btnLuuCTXH.Click += new System.EventHandler(this.btnLuuCTXH_Click);
             // 
             // txtDonGiaCTXH
             // 
@@ -454,6 +466,7 @@
             this.Name = "frmXuatKho";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmXuatKho";
+            this.Load += new System.EventHandler(this.frmXuatKho_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
             this.groupBox3.ResumeLayout(false);
