@@ -26,7 +26,6 @@ namespace QuanLyKho
             anhd();
             btnLuuHD.Visible = false;
             btnLuuCTXH.Visible = false;
-            LoadComboBox();
         }
         private void anhd()
         {
