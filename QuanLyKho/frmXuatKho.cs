@@ -26,6 +26,7 @@ namespace QuanLyKho
             anhd();
             btnLuuHD.Visible = false;
             btnLuuCTXH.Visible = false;
+            LoadComboBox();
         }
         private void anhd()
         {
@@ -111,66 +112,12 @@ namespace QuanLyKho
 
         private void btnLuuHD_Click(object sender, EventArgs e)
         {
-            KhachHangDTO kh = new KhachHangDTO();
-            HoaDonXuatDTO hdx = new HoaDonXuatDTO();
-            int makh = 0;
-            int mahd = 0;
-            kh.HoTen = txtTenKhachHang.Text;
-            kh.SDT = txtSDT.Text;
-            kh.Email = txtEmail.Text;
-            kh.DiaChi = txtDiaChi.Text;
-            hdx.TongTien = "0";
-            // khi phím bấm là phím thêm 
-            if (kthd == 1)
-            {
 
-                int.TryParse(KhachHangDAO.LayIDKhachCuoi().Rows[0]["MaxMK"].ToString(), out makh);
-                kh.MaKhachHang = makh + 1;
-                hdx.MaKhachHang = makh + 1;
-                hdx.NgayXuat = dtpThoiGian.Value;
-                int.TryParse(HoaDonXuatDAO.LayMaxIDHD().Rows[0]["MaHDXuat"].ToString(), out mahd);
-                hdx.MaHDXuat = mahd + 1;
-                try
-                {
-                    KhachHangDAO.ThemKH(kh);
-                    HoaDonXuatDAO.ThemHD(hdx);
-                }
-                catch
-                {
-                    MessageBox.Show("Có lỗi chưa thêm được mời làm lại ");
-                }
-            }
-            // khi bấm phím sửa
-            if (kthd == 2)
-            {
-                DataGridViewRow dr = dgvHoaDon.SelectedRows[0];
-                int.TryParse(dr.Cells["Mã khách"].Value.ToString(), out makh);
-                kh.MaKhachHang = makh;
-                int.TryParse(dr.Cells["Mã Xuất hàng"].Value.ToString(), out mahd);
-                hdx.MaHDXuat = mahd;
-                try
-                {
-                    KhachHangDAO.SuaKH(kh);
-                    HoaDonXuatDAO.SuaHD(hdx);
-                }
-                catch
-                {
-                    MessageBox.Show("Chưa sửa được mời làm lại ");
-                }
-            }
-            anhd();
-            btnLuuHD.Visible = false;
-            dgvHoaDon.DataSource = HoaDonXuatDAO.LoadDataHoaDonVaKhach();
-            resettext();
-            kthd = 0;
         }
 
         private void btnSuaHD_Click(object sender, EventArgs e)
         {
-            kthd = 2;
-            txtTenKhachHang.Focus();
-            btnLuuHD.Visible = true;
-            hienhd();
+            
         }
 
         private void btnXoaHD_Click(object sender, EventArgs e)
@@ -206,11 +153,126 @@ namespace QuanLyKho
             string gt = txtSearchHD.Text;
             dgvHoaDon.DataSource = HoaDonXuatDAO.Search(gt);
         }
+        public void LoadComboBox()
+        {
+            cboTenSanPham.DataSource = HangHoaDAO.LoadDataHangHoa();
+            cboTenSanPham.ValueMember = "MaHangHoa";
+            cboTenSanPham.DisplayMember = "TenHang";
+        }
+
+        private void btnThemCTXH_Click(object sender, EventArgs e)
+        {
+            btnLuuCTXH.Visible = true;
+            ktctx = 1;
+            hienctx();
+        }
+
+        private void btnLuuCTXH_Click(object sender, EventArgs e)
+        {
+            ChiTietXuatDTO ctx = new ChiTietXuatDTO();
+            int dongia = 0;
+            int soluong = 0;
+            int.TryParse(txtDonGiaCTXH.Text, out dongia);
+            int.TryParse(txtSoLuongCTXH.Text, out soluong);
+            ctx.DonGia = dongia;
+            ctx.SoLuong = soluong;
+            ctx.MaHangHoa = (int)cboTenSanPham.SelectedValue;
+            ctx.MaHDXuat = maHoaDon;
+            // trường hợp bấm phím thêm
+            if (ktctx == 1)
+            {
+                try
+                {
+                    ChiTietXuatDAO.ThemCTX(ctx);
+                }
+                catch
+                {
+
+                    try
+                    {
+                        int soluongcon = 0;
+                        int.TryParse(ChiTietXuatDAO.TinhSoLuong(ctx).Rows[0]["SoLuong"].ToString(), out soluongcon);
+                        ctx.SoLuong += soluongcon;
+                        ChiTietXuatDAO.SuaCTX(ctx);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Có lỗi không thêm được");
+                    }
+
+
+                }
+
+            }
+
+
+            // trường hợp bấm phím sửa
+            if (ktctx == 2)
+            {
+                try
+                {
+                    ChiTietXuatDAO.SuaCTX(ctx);
+                }
+                catch
+                {
+                    MessageBox.Show("Lỗi chưa sửa được");
+                }
+            }
+
+
+            anhd();
+            btnLuuCTXH.Visible = false;
+            dgvHoaDon.DataSource = HoaDonXuatDAO.LoadDataHoaDonVaKhach();
+            dgvChiTietXuat.DataSource = ChiTietXuatDAO.LoadDataCTX(maHoaDon);
+            resettext();
+            ktctx = 0;
 
 
 
+        }
 
+        private void cboTenSanPham_SelectedValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                int mahh = 0;
+                //DataGridViewRow dr = dgvChiTietXuat.SelectedRows[0];
+                int.TryParse(cboTenSanPham.SelectedValue.ToString(), out mahh);
+                DataTable t = ChiTietXuatDAO.TinhDonGia(mahh);
+               // int.TryParse(cboTenSanPham.SelectedValue.ToString(), out mahh);
+                txtDonGiaCTXH.Text = t.Rows[0]["GiaXuat"].ToString();
+            }
+            catch
+            {
 
+            }
+        }
 
+        private void btnSuaCTXH_Click(object sender, EventArgs e)
+        {
+            ktctx = 2;
+            btnLuuCTXH.Visible = true;
+            hienctx();
+            cboTenSanPham.Enabled = false;
+            txtDonGiaCTXH.Focus();
+        }
+
+        private void btnXoaCTXH_Click(object sender, EventArgs e)
+        {
+            ChiTietXuatDTO ctx = new ChiTietXuatDTO();
+            ctx.MaHangHoa = (int)cboTenSanPham.SelectedValue;
+            ctx.MaHDXuat = maHoaDon;
+            try
+            {
+                ChiTietXuatDAO.XoaCTX(ctx);
+            }
+            catch
+            {
+                MessageBox.Show("Chưa xóa được!");
+            }
+            dgvHoaDon.DataSource = HoaDonXuatDAO.LoadDataHoaDonVaKhach();
+            dgvChiTietXuat.DataSource = ChiTietXuatDAO.LoadDataCTX(maHoaDon);
+            resettext();
+        }
     }
 }

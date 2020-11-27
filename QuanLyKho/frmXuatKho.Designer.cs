@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()//
+        private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -357,6 +357,7 @@
             this.cboTenSanPham.Name = "cboTenSanPham";
             this.cboTenSanPham.Size = new System.Drawing.Size(121, 21);
             this.cboTenSanPham.TabIndex = 14;
+            this.cboTenSanPham.SelectedValueChanged += new System.EventHandler(this.cboTenSanPham_SelectedValueChanged);
             // 
             // txtThanhTien
             // 
@@ -382,6 +383,7 @@
             this.btnXoaCTXH.TabIndex = 11;
             this.btnXoaCTXH.Text = "Xóa";
             this.btnXoaCTXH.UseVisualStyleBackColor = true;
+            this.btnXoaCTXH.Click += new System.EventHandler(this.btnXoaCTXH_Click);
             // 
             // btnSuaCTXH
             // 
@@ -391,6 +393,7 @@
             this.btnSuaCTXH.TabIndex = 10;
             this.btnSuaCTXH.Text = "Sửa";
             this.btnSuaCTXH.UseVisualStyleBackColor = true;
+            this.btnSuaCTXH.Click += new System.EventHandler(this.btnSuaCTXH_Click);
             // 
             // btnThemCTXH
             // 
@@ -400,6 +403,7 @@
             this.btnThemCTXH.TabIndex = 9;
             this.btnThemCTXH.Text = "Thêm";
             this.btnThemCTXH.UseVisualStyleBackColor = true;
+            this.btnThemCTXH.Click += new System.EventHandler(this.btnThemCTXH_Click);
             // 
             // btnLuuCTXH
             // 
@@ -409,6 +413,7 @@
             this.btnLuuCTXH.TabIndex = 8;
             this.btnLuuCTXH.Text = "Lưu";
             this.btnLuuCTXH.UseVisualStyleBackColor = true;
+            this.btnLuuCTXH.Click += new System.EventHandler(this.btnLuuCTXH_Click);
             // 
             // txtDonGiaCTXH
             // 
