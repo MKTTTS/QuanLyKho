@@ -12,7 +12,9 @@ namespace DAO
     {
         public static SqlConnection KetNoi()
         {
+
             string sChuoi = @"Data Source=.;Initial Catalog=QuanLyKho;Integrated Security=True";
+
             SqlConnection con = new SqlConnection(sChuoi);
             con.Open();
             return con;
