@@ -37,3 +37,12 @@ D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.csproj.CopyComplete
 D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.dll
 D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\bin\Debug\DAO.dll
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\bin\Debug\DAO.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\bin\Debug\DTO.dll
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\bin\Debug\DTO.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\obj\Debug\DAO.dll
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\DAO\obj\Debug\DAO.pdb

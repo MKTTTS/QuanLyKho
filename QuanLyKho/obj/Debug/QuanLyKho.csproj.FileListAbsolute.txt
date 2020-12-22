@@ -99,3 +99,23 @@ D:\C#\QLKho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cac
 D:\C#\QLKho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
 D:\C#\QLKho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\C#\QLKho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\DTO.dll
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMenu.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cache
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\Thuc Tap Nhom\New folder\Tri\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb

@@ -1,5 +1,5 @@
 Tiến:menu+ trợ giúp 	
-Trí:Khách hàng
+Trí:kiểm tra toàn bộ
 Minh:đổi mật khẩu+ thêm tài khoản
 Sơn: Nhập kho
 Tùng:Thống kê
