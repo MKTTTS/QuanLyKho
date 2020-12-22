@@ -29,6 +29,9 @@ namespace QuanLyKho
 
         private void btnPhanTich_Click(object sender, EventArgs e)
         {
+            lblTongTienNam.Text = "Tổng tiền cả năm : ";
+            lblThangThapNhat.Text = "Tháng thấp nhất :";
+            lblThangNhieuNhat.Text = "Tháng nhiều nhất :";
             if (cboNam.Text == "" || cboXuatNhap.Text == "")
             {
                 MessageBox.Show("Mời bạn nhập đủ thông tin");
