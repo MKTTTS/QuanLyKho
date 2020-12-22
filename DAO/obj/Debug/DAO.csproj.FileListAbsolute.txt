@@ -28,3 +28,12 @@ C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DAO\obj\Debug\DAO.csp
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DAO\obj\Debug\DAO.dll
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DAO\obj\Debug\DAO.pdb
+D:\C#\QLKho\QuanLyKho\DAO\bin\Debug\DAO.dll
+D:\C#\QLKho\QuanLyKho\DAO\bin\Debug\DAO.pdb
+D:\C#\QLKho\QuanLyKho\DAO\bin\Debug\DTO.dll
+D:\C#\QLKho\QuanLyKho\DAO\bin\Debug\DTO.pdb
+D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.dll
+D:\C#\QLKho\QuanLyKho\DAO\obj\Debug\DAO.pdb

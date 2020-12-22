@@ -12,3 +12,9 @@ C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\bin\Debug\DTO.pdb
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.dll
 C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.pdb
+D:\C#\QLKho\QuanLyKho\DTO\bin\Debug\DTO.dll
+D:\C#\QLKho\QuanLyKho\DTO\bin\Debug\DTO.pdb
+D:\C#\QLKho\QuanLyKho\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\C#\QLKho\QuanLyKho\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\C#\QLKho\QuanLyKho\DTO\obj\Debug\DTO.dll
+D:\C#\QLKho\QuanLyKho\DTO\obj\Debug\DTO.pdb
