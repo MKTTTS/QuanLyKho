@@ -137,8 +137,11 @@ namespace QuanLyKho
                 hh.SoLuong = int.Parse(dgvchitiet.Rows[i].Cells[3].Value.ToString());
                 hh.DonGia = int.Parse(dgvchitiet.Rows[i].Cells[4].Value.ToString());
                 hh.GiaXuat = int.Parse(dgvchitiet.Rows[i].Cells[4].Value.ToString()) * 2;
-                try { hh.GhiChu = dgvchitiet.Rows[i].Cells[0].Value.ToString(); }
-                catch { }
+                if (dgvchitiet.Rows[i].Cells[0].Value != null)
+                {
+                    hh.GhiChu = dgvchitiet.Rows[i].Cells[0].Value.ToString();
+                }
+
                 DataTable dt = HoaDonNhapDAO.TimHangHoa(hh.TenHang);
                 try
                 {
@@ -156,14 +159,11 @@ namespace QuanLyKho
 
         private bool kiemtra()
         {
-            try
-            {
-                string s = cboCC.SelectedValue.ToString();
-            }
-            catch
+            if(cboCC.Text == "")
             {
                 return false;
             }
+           
             try
             {
                 string s1 = dgvchitiet.Rows[0].Cells[2].Value.ToString();
@@ -256,8 +256,12 @@ namespace QuanLyKho
                 hh.SoLuong = int.Parse(dgvchitiet.Rows[i].Cells[3].Value.ToString());
                 hh.DonGia = int.Parse(dgvchitiet.Rows[i].Cells[4].Value.ToString());
                 hh.GiaXuat = int.Parse(dgvchitiet.Rows[i].Cells[4].Value.ToString()) * 2;
-                try { hh.GhiChu = dgvchitiet.Rows[i].Cells[0].Value.ToString(); }
-                catch { }
+                if (dgvchitiet.Rows[i].Cells[0].Value != null)
+                {
+                    hh.GhiChu = dgvchitiet.Rows[i].Cells[0].Value.ToString();
+                }
+                
+                
                 DataTable dt = HoaDonNhapDAO.TimHangHoa(hh.TenHang);
                 try
                 {

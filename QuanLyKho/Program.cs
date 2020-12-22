@@ -16,11 +16,8 @@ namespace QuanLyKho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new frmThongKe());
-=======
             Application.Run(new frmNhapKho());
->>>>>>> son
+
         }
     }
 }
