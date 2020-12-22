@@ -1,20 +1,5 @@
-D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\bin\Debug\DTO.dll
-D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\bin\Debug\DTO.pdb
-D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.dll
-D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.pdb
-D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DTO\bin\Debug\DTO.dll
-C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DTO\bin\Debug\DTO.pdb
-C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DTO\obj\Debug\DTO.dll
-C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DTO\obj\Debug\DTO.pdb
-C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\bin\Debug\DTO.dll
-C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\bin\Debug\DTO.pdb
-C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.dll
-C:\Users\dang tien\Desktop\New folder (7)\QuanLyKho-master\DTO\obj\Debug\DTO.pdb
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\bin\Debug\DTO.dll
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\bin\Debug\DTO.pdb
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\obj\Debug\DTO.dll
-C:\Users\mjnkc\Documents\GitHub\QuanLyKho\DTO\obj\Debug\DTO.pdb
+E:\Desktop\QuanLyKho\DTO\bin\Debug\DTO.dll
+E:\Desktop\QuanLyKho\DTO\bin\Debug\DTO.pdb
+E:\Desktop\QuanLyKho\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Desktop\QuanLyKho\DTO\obj\Debug\DTO.dll
+E:\Desktop\QuanLyKho\DTO\obj\Debug\DTO.pdb
